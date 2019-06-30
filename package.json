@@ -1,17 +1,10 @@
-{ "name": "cap",
+{ "name": "cap-decoders",
   "version": "0.2.0",
   "author": "Brian White <mscdex@mscdex.net>",
-  "description": "A cross-platform binding for performing packet capturing with node.js",
-  "main": "./lib/Cap",
-  "dependencies": {
-    "nan": "^2.8.0"
-  },
-  "scripts": {
-    "install": "node-gyp rebuild",
-    "test": "node test/test.js"
-  },
+  "description": "Network packet decoders (extracted from 'cap' packet)",
+  "main": "./lib/Decoders",
   "engines": { "node": ">=4.0.0" },
-  "keywords": [ "pcap", "packet", "capture", "libpcap", "winpcap" ],
+  "keywords": [ "pcap", "packet", "decoder" ],
   "licenses": [ { "type": "MIT", "url": "http://github.com/mscdex/cap/raw/master/LICENSE" } ],
-  "repository" : { "type": "git", "url": "http://github.com/mscdex/cap.git" }
+  "repository" : { "type": "git", "url": "http://github.com/kirgene/cap-decoders.git" }
 }
